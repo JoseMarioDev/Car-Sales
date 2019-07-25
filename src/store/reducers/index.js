@@ -1,5 +1,5 @@
-import { ADD_FEATURE } from '../actions/actions';
-import { REMOVE_FEATURE } from '../actions/actions';
+import { ADD_FEATURE } from '../actions';
+import { REMOVE_FEATURE } from '../actions';
 
 const initialState = {
   additionalPrice: 0,
