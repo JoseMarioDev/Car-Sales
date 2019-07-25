@@ -9,9 +9,9 @@ const AdditionalFeatures = props => {
         <ol type='1'>
           {props.store.map(item => (
             <AdditionalFeature
-              buyItem={props.buyItem}
               key={item.id}
               feature={item}
+              buyItem={props.buyItem}
             />
           ))}
         </ol>
